@@ -9,7 +9,7 @@ pipeline {
         }
         stage ('Test'){
             steps {
-                sh 'python test-app.py'
+                sh 'python PythonApplication1/PythonApplication1/test-app.py'
             }
         }
     }
