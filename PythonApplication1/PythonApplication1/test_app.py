@@ -1,6 +1,6 @@
 import unittest
 import calc
-
+import xmlrunner
 class TestCalc(unittest.TestCase):
     """
     Test the add function from the calc library
@@ -45,4 +45,5 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(result, 'abc5.5')
 
 if __name__ == '__main__':
-    unittest.main()
+    #unittest.main()
+    unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test-reports'))
