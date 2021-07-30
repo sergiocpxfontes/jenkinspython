@@ -1,1 +1,1 @@
-pass
+print("exemplo de python")
