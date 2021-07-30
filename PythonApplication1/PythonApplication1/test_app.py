@@ -45,5 +45,5 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(result, 'abc5.5')
 
 if __name__ == '__main__':
-    unittest.main()
-    #unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test-reports'))
+    #unittest.main()
+    unittest.main(testRunner=xmlrunner.XMLTestRunner(output='test-reports'))
